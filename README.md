@@ -12,7 +12,7 @@
 Das ursprüngliche Programm wurde in "Lua" geschrieben. Um ein besser wartbares System zu haben wurde das Programm in "C#" übersetzt. Es dient dazu von einem Dezimal-, Hexadezimal- oder Binärwert die gesetzten Bits abzufragen und so den Status besser dargestellt zu bekommen.
 
 
-<img src="./Assets/ReadMe_overview.PNG"/>
+<img src="./Statusbits/Assets1/ReadMe_overview.PNG"/>
 
 
 ## __Funktion__
