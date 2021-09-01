@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ALT_VAL" xml:space="preserve">
+    <value>Alternative value</value>
+  </data>
+  <data name="BL_870" xml:space="preserve">
+    <value>IEC 60870 status: blocked</value>
+  </data>
+  <data name="CB_TRIP" xml:space="preserve">
+    <value>Breaker tripping detected</value>
+  </data>
+  <data name="CB_TR_I" xml:space="preserve">
+    <value>Breaker tripping detection inactive</value>
+  </data>
+  <data name="COT0" xml:space="preserve">
+    <value>Cause of transmission bit 1</value>
+  </data>
+  <data name="COT1" xml:space="preserve">
+    <value>Cause of transmission bit 2</value>
+  </data>
+  <data name="COT2" xml:space="preserve">
+    <value>Cause of transmission bit 3</value>
+  </data>
+  <data name="COT3" xml:space="preserve">
+    <value>Cause of transmission bit 4</value>
+  </data>
+  <data name="COT4" xml:space="preserve">
+    <value>Cause of transmission bit 5</value>
+  </data>
+  <data name="COT5" xml:space="preserve">
+    <value>Cause of transmission bit 6</value>
+  </data>
+  <data name="FM_TR" xml:space="preserve">
+    <value>Fault message transformer value</value>
+  </data>
+  <data name="GI" xml:space="preserve">
+    <value>General interrogation</value>
+  </data>
+  <data name="INFO" xml:space="preserve">
+    <value>Information for variable</value>
+  </data>
+  <data name="INVALID" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="M1" xml:space="preserve">
+    <value>User defined status no. 1</value>
+  </data>
+  <data name="M14" xml:space="preserve">
+    <value>User defined status no. 14</value>
+  </data>
+  <data name="M15" xml:space="preserve">
+    <value>User defined status no. 15</value>
+  </data>
+  <data name="M16" xml:space="preserve">
+    <value>User defined status no.16</value>
+  </data>
+  <data name="M2" xml:space="preserve">
+    <value>User defined status no. 2</value>
+  </data>
+  <data name="M3" xml:space="preserve">
+    <value>User defined status no. 3</value>
+  </data>
+  <data name="M4" xml:space="preserve">
+    <value>User defined status no. 4</value>
+  </data>
+  <data name="M5" xml:space="preserve">
+    <value>User defined status no. 5</value>
+  </data>
+  <data name="M6" xml:space="preserve">
+    <value>User defined status no. 6</value>
+  </data>
+  <data name="M7" xml:space="preserve">
+    <value>User defined status no. 7</value>
+  </data>
+  <data name="M8" xml:space="preserve">
+    <value>User defined status no. 8</value>
+  </data>
+  <data name="MAN_VAL" xml:space="preserve">
+    <value>Manual value</value>
+  </data>
+  <data name="NET_SEL" xml:space="preserve">
+    <value>Select in network</value>
+  </data>
+  <data name="NORM" xml:space="preserve">
+    <value>Normal status</value>
+  </data>
+  <data name="NT_870" xml:space="preserve">
+    <value>IEC 60870 status: not typical</value>
+  </data>
+  <data name="N_CONF" xml:space="preserve">
+    <value>Select was not confirmed by device  (IEC 60870 [P/N])</value>
+  </data>
+  <data name="N_NORM" xml:space="preserve">
+    <value>Deviation to normal status</value>
+  </data>
+  <data name="N_SORTAB" xml:space="preserve">
+    <value>Not sortable</value>
+  </data>
+  <data name="N_UPDATE" xml:space="preserve">
+    <value>Not updated</value>
+  </data>
+  <data name="OFF" xml:space="preserve">
+    <value>Switched off</value>
+  </data>
+  <data name="OR_DRV" xml:space="preserve">
+    <value>Value quality ‚Out of Range' (IEC 61850)</value>
+  </data>
+  <data name="OV_870" xml:space="preserve">
+    <value>IEC 60870 status: overflow</value>
+  </data>
+  <data name="PROGRESS" xml:space="preserve">
+    <value>In operation - command in progress</value>
+  </data>
+  <data name="PR_NR" xml:space="preserve">
+    <value>Not recorded in Process Recorder</value>
+  </data>
+  <data name="RES28" xml:space="preserve">
+    <value>Reserved for internal usage</value>
+  </data>
+  <data name="RES31" xml:space="preserve">
+    <value>Reserved for internal usage</value>
+  </data>
+  <data name="RES53" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES54" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES55" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES56" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES57" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES58" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES59" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES60" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES61" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES62" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="RES63" xml:space="preserve">
+    <value>reserved</value>
+  </data>
+  <data name="REVISION" xml:space="preserve">
+    <value>Revision</value>
+  </data>
+  <data name="RM_TR" xml:space="preserve">
+    <value>Run message transformer value</value>
+  </data>
+  <data name="SB_870" xml:space="preserve">
+    <value>IEC 60870 status: substituted</value>
+  </data>
+  <data name="SE_870" xml:space="preserve">
+    <value>IEC 60870 status: select</value>
+  </data>
+  <data name="SPONT" xml:space="preserve">
+    <value>Spontaneous</value>
+  </data>
+  <data name="TEST" xml:space="preserve">
+    <value>Test bit (IEC 60870 [T])</value>
+  </data>
+  <data name="TIMEOUT" xml:space="preserve">
+    <value>Command runtime exceeded</value>
+  </data>
+  <data name="T_DEV" xml:space="preserve">
+    <value>Configured time difference between internal and external timestamp reached</value>
+  </data>
+  <data name="T_EXTERN" xml:space="preserve">
+    <value>Realtime - external timestamp</value>
+  </data>
+  <data name="T_INTERN" xml:space="preserve">
+    <value>Internal timestamp</value>
+  </data>
+  <data name="T_INVAL" xml:space="preserve">
+    <value>External timestamp invalid</value>
+  </data>
+  <data name="T_STD" xml:space="preserve">
+    <value>Winter time</value>
+  </data>
+  <data name="T_STD_E" xml:space="preserve">
+    <value>Standard time (winter) extern</value>
+  </data>
+  <data name="T_UNSYNC" xml:space="preserve">
+    <value>ClockNotSynchronized (IEC 61850)</value>
+  </data>
+  <data name="WR_ACK" xml:space="preserve">
+    <value>Writing acknowledged</value>
+  </data>
+  <data name="WR_SUC" xml:space="preserve">
+    <value>Writing successful</value>
+  </data>
+</root>
